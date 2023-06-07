@@ -1,4 +1,6 @@
 class Slingshot{
+  
+  // Constraint ;D
     constructor(bodyA, pointB){
         var options = {
             bodyA: bodyA,
@@ -13,7 +15,7 @@ class Slingshot{
 
     }
     fly(){
-        this.sling.bodyA =;
+        this.sling.bodyA =null;
     }
     display(){
         if(this.sling.bodyA){
